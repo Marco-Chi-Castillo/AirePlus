@@ -5,10 +5,10 @@ Consiste en un pequeño diseño que realize en la universidad, simplemente lo pa
 > Estado: En proceso.
 
 ## Incluye
-4. SASS
-5. BEM (clases)
+1. SASS
+2. BEM (clases)
 
 ## Diseño
-![UI](imagen.jpg)
+[UI](imagen.jpg)
 
 
