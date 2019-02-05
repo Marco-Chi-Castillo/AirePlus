@@ -1,0 +1,39 @@
+.group-advantage {
+  margin-top: $margin-top;
+}
+
+.advantages {
+  margin-top: 6em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.advantage {
+  width: 25%;
+  &__title {
+    font-family: $title-font;
+    margin-bottom: 1em;
+  }
+  &__description {
+    margin-bottom: 4em;
+  }
+
+  &__description:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.advantage:nth-child(1) {
+  text-align: right;
+}
+
+.photo-advantage {
+  width: 23%;
+  &__img {
+    border: 20px solid $color3;
+    border-radius: 50%;
+    width: 100%;
+  }
+}

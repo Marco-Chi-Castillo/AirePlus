@@ -1,0 +1,21 @@
+
+// Librerias y bases(elementos HTML y adiccionales)
+@import "base/variables";
+@import "base/base";
+
+
+//modulos(elementos que se repiten)
+@import "modulos/modulos";
+
+//layout(maquetacion)
+
+//Tema. Los componentes basicos del todo el proyecto.(Look and feel)
+@import "tema/header-information";
+@import "tema/header-navigation";
+@import "tema/header-banner";
+@import "tema/section-information";
+@import "tema/section-services";
+@import "tema/section-advantage";
+@import "tema/section-help";
+@import "tema/section-prices";
+@import "tema/footer";

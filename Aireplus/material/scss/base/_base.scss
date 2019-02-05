@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: $body-background;
+    font-family: $body-font;
+    font-size: $body-size;
+    color:$body-color;
+}
+
+a{
+    text-decoration: none;
+    color: $color2;
+}
+
+p, blockquote, li{
+    font-size: $font-size;
+    line-height: $line-height;
+}
+
+ul{
+    list-style: none;
+}
+
+i{
+    display: inline-block;
+}

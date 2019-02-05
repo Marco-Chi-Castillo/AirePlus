@@ -1,0 +1,39 @@
+.group-information {
+  margin-top: $margin-top;
+  display: flex;
+}
+
+.box-information {
+  width: 50%;
+  margin-right: 25px;
+
+  &__title,
+  &__subtitle,
+  &__description,
+  &__icons {
+    margin-bottom: 15px;
+  }
+  &__title {
+    font-family: $title-font;
+  }
+
+  &__subtitle {
+    color: $color1;
+  }
+
+  &__description {
+    width: 75%;
+  }
+
+  &__icons {
+    width: 35%;
+  }
+}
+
+.box-photo {
+  width: 50%;
+  align-self: center; //cuando se haga mas chico el navegador, estara en el centro la img
+  &__img {
+    width: 100%;
+  }
+}

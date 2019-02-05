@@ -1,0 +1,34 @@
+
+// PALETA DE COLORES
+$color1: #2D71FF;
+$color2: #333333;
+$color3: #DBDBDB;
+$color4: #252D52;
+
+// ESTILOS BASES
+$body-background: #fff; //fondo para el body
+$body-font: 'Abel', sans-serif;; //fuente predeterminada
+$body-color: $color2; //color de los textos predeterminados
+$body-size: 16px; //Tamaño de fuente predeterminada.
+
+//ESTILOS CONTENEDORES.
+$container-margin: 1.3em;
+$margin-top: 4em;
+
+//ESTILOS TITULOS.
+$title-font: 'Oswald', sans-serif;
+
+//TAMAÑO FUENTES;
+$h1-size: 2em;
+$h2-size: 1.6em;
+$h3-size: 1.3em;
+$h4-size: 1em;
+
+//TAMAÑOS RESPOSIVE.
+$latop: 1000px;
+$tablet: 700px;
+$movil: 400px;
+
+//ESTILOS DE PARRAFOS.
+$font-size: 1em; //tamaño de fuente
+$line-height: 1.5; //altura de linea.

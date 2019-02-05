@@ -1,0 +1,41 @@
+.information-header {
+  display: flex;
+  margin-top: $container-margin;
+}
+
+.logo {
+  width: 20%;
+  &__img {
+    width: 100%;
+  }
+}
+.dates {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.date {
+  display: flex;
+
+}
+
+.date-icon {
+  color: $color3;
+  font-size: 3.5em;
+}
+
+.date-description {
+    margin-left: 10px;
+  &__title,
+  &__information {
+    font-family: $title-font;
+    font-weight: 700;
+  }
+
+  &__title {
+    color: $color1;
+  }
+}

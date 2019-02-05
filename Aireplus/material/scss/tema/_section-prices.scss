@@ -1,0 +1,39 @@
+.group-prices{
+    margin-top: $margin-top;
+}
+
+.prices{
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.price{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 1px solid darken($color3, 10);
+    padding: 1.5em;
+    border-radius: 20px;
+    margin: 0 15px 15px 0;
+    &__quantity, &__title{
+         font-family: $title-font;
+         font-size: $h3-size;
+    }
+    &__quantity{
+        color: $color1;
+        font-weight: 700;
+        line-height: 1;
+    }
+    &__title{
+        text-transform: capitalize;
+    }
+    &__title, &__list{
+        margin-bottom: 20px;
+    }
+    &__list{
+        list-style-type: disc;
+    }
+}
