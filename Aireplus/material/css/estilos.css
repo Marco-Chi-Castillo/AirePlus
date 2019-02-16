@@ -266,3 +266,13 @@ i {
     margin-bottom: 20px; }
   .price__list {
     list-style-type: disc; }
+
+.group-photos {
+  margin-top: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 0; }
+
+.photo {
+  width: 20%;
+  height: 100%; }

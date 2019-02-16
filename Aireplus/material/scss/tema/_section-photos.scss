@@ -1,0 +1,11 @@
+.group-photos {
+  margin-top: $margin-top;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 0;
+}
+
+.photo {
+  width: 20%;
+  height: 100%;
+}

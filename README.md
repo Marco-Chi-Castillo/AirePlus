@@ -1,6 +1,5 @@
 # AirePlus
-Primera practica utilizando SASS
-Consiste en un pequeño diseño que realize en la universidad, simplemente lo pase a HTML.
+Practica utilizando SASS.
 
 > Estado: En proceso.
 
@@ -8,7 +7,5 @@ Consiste en un pequeño diseño que realize en la universidad, simplemente lo pa
 1. SASS
 2. BEM (clases)
 
-## Diseño final
-![UI](imagen.jpg)
 
 
