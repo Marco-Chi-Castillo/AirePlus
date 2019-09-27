@@ -276,3 +276,29 @@ i {
 .photo {
   width: 20%;
   height: 100%; }
+
+.section-contact {
+  margin-top: 4em; }
+
+.container-dates {
+  position: relative; }
+
+.image-contact {
+  margin-top: 4em;
+  width: 100%; }
+  .image-contact__photo {
+    width: 100%; }
+
+.form {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 27%;
+  margin-left: 60%;
+  display: flex;
+  flex-direction: column; }
+  .form__date {
+    margin-bottom: 1.2em;
+    padding: 0.9em;
+    border-radius: 2.5em;
+    border: none; }
