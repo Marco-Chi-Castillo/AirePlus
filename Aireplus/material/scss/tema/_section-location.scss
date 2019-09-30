@@ -1,0 +1,39 @@
+.group-location {
+  margin-top: $margin-top;
+  display: flex;
+  justify-content: space-around;
+}
+.group-informations {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.date-information {
+  display: flex;
+
+  &__icon {
+    color: $color2;
+    font-size: 1.2em;
+    padding-top: 5px; //para centrar los iconos disparejos
+  }
+  &__description {
+    font-size: 1.2em;
+    font-weight: 800;
+    padding-left: 10px;
+    line-height: 30px;
+  }
+}
+
+/*.button--edition{
+    margin-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}*/
+
+.map {
+  width: 40%;
+  &-valladolid {
+    width: 100%;
+    height: 200px;
+  }
+}
