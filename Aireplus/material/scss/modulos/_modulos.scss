@@ -1,38 +1,38 @@
-.container{
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
+.container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.button{
-    font-family: $title-font;
-    background: $color1;
-    line-height: 2.5em;
-    padding: 0 30px;
-    border: 1px solid transparent;
-    color: #fff;
-    border-radius: 2.5em;
-    text-transform: capitalize;
-    transition: all .5s;
+.button {
+  font-family: $title-font;
+  background: $color1;
+  line-height: 2.5em;
+  padding: 0 30px;
+  border: 1px solid transparent;
+  color: #fff;
+  border-radius: 2.5em;
+  text-transform: capitalize;
+  transition: all 0.5s;
 
-    &:hover{
-        border: 1px solid $color3;
-        background: #fff;
-        color: $color1;
-        cursor: pointer;
-    }
+  &:hover {
+    border: 1px solid $color3;
+    background: #fff;
+    color: $color1;
+    cursor: pointer;
+  }
 }
 
-.titles{
-    text-align: center;
-    font-family: $title-font;
-    text-transform: capitalize;
-    line-height: 2em;
-    padding-top: 1em;
-    &__little{
-        color: $color1;
-    }
-    &__small{
-        font-size: 1.8em;
-    }
+.titles {
+  text-align: center;
+  font-family: $title-font;
+  text-transform: capitalize;
+  line-height: 2em;
+  padding-top: 1em;
+  &__little {
+    color: $color1;
+  }
+  &__small {
+    font-size: 1.8em;
+  }
 }
